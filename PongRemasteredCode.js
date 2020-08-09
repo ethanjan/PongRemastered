@@ -43,7 +43,7 @@ var newGameRecord = {};
 //This declares the array that is used to display the people who have played the game.
 var playerInformation = [];
 
-//This reads the records from the database and assigns the human wins to player wins and the AI wins to enemy wins. It also assigns the right id to the newGameRecord.id and assigns the player win ratio to the property for the player win ratio..
+//This reads the records from the database and assigns the human wins to player wins and the AI wins to enemy wins. It also assigns the right id to the newGameRecord.id and assigns the player win ratio to the property for the player win ratio.
 readRecords("humanAgainstAI", {}, function(records) {
   newGameRecord.id = records[0].id;
   gameState.playerWins = records[0].humanWins;
