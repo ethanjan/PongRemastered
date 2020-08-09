@@ -133,7 +133,7 @@ function checkPaddleCollisions() {
   }
 }
 
-//This checks if two objects are colliding. This was not written by me (Mr.Keays).
+//This checks if two objects are colliding.
 function checkCollision(x1, y1, h1, w1, x2, y2, h2, w2) {
   return x1<x2+w2 && x1+w1>x2 && y1<y2+h2 && y1+h1>y2;
 }
@@ -241,7 +241,7 @@ function resetBall() {
   setPosition("ball", gameBall.xBall, gameBall.yBall);
 }
 
-// This function actually shows all of the records (sorted by who won and who lost) in the text area. This was not written by me (Mr.Keays).
+// This function actually shows all of the records (sorted by who won and who lost) in the text area.
 function showPlayerRecords() {
   readRecords("winLossTable", {}, function(records) {
     playerInformation = sortWinLoss(records);
@@ -249,7 +249,7 @@ function showPlayerRecords() {
   });
 }
 
-// This sorts the records array by who won and who lost. The players who won are shifted to the front of the array, while the players who lost are shifted to the back of the array. This was not written by me (Mr.Keays).
+// This sorts the records array by who won and who lost. The players who won are shifted to the front of the array, while the players who lost are shifted to the back of the array.
 function sortWinLoss(recordsArray) {
   for (var i = recordsArray.length-1; i > 0; i--) {
     for (var j = 0; j < i; j++) {
@@ -261,7 +261,7 @@ function sortWinLoss(recordsArray) {
   return recordsArray;
 }
 
-//This swaps two items in a list and returns the list. This was not written by me (Mr.Keays).
+//This swaps two items in a list and returns the list.
 function swap(list, a, b) {
   var temp = list[a];
   list[a] = list[b];
@@ -269,7 +269,7 @@ function swap(list, a, b) {
   return list;
 }
 
-// This functions displays all of the player information in the player information screen. This was not written by me (Mr. Keays).
+// This functions displays all of the player information in the player information screen.
 function displayPlayerInformation() {
   var listOfPlayerInformation = "";
   for (var i = 0; i < playerInformation.length; i++) {
