@@ -11,4 +11,5 @@ Because this program was developed using code.org's game engine, it can only be 
 Here is the pertinent link to be able to play this game on code.org: [Pong Remastered](https://studio.code.org/projects/applab/fqvEYDTI5cZnw5Ix2in7HoHQ81k2zjSRbZAv7cJxNJ8)
 
 ## Images
-![Pong Remastered](Desktop/Pong_Remastered_GamePlay) 
+![Pong_Remastered_GamePlay](https://user-images.githubusercontent.com/8474410/89722335-5f4a0200-d99d-11ea-989d-6aee29ba0715.png)
+
